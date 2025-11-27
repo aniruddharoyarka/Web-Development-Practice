@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 120px 120px 120px;
+}
+
+.box {
+    height: 100px;
+    /* width: 100px; */
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+.box1 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.box3 {
+    grid-row: 2/4;
+    grid-column: 2/3;
+}

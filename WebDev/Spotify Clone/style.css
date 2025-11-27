@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: poppins;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topbar {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar #logo {
+    margin: 10px 20px;
+    width: 30px;
+}
+
+.topbar #logo:hover{
+    cursor: pointer;
+}
+
+.topbar .search {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .search img {
+    width: 25px;
+}
+
+.topbar .search img:hover {
+    scale: 1.09;
+    cursor: pointer;
+}
+
+.topbar input{
+    font-size: small;
+    margin: 10px;
+    background-color: #141414;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    padding: 15px 20px;
+    text-align: left;
+    width: 30vw;
+}
+
+.topbar ol {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+.topbar li {
+    margin: 10px;
+    padding: 0px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.topbar li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.topbar button {
+    color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border: 0px;
+}
+
+.topbar .options button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: rgb(23, 23, 23);
+    width: 390px;
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+}
+
+.navbar div {
+    padding: 15px 20px;
+}
+
+.navbar .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.card {
+    background-color: #1F1F1F;
+    width: 80%;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.card button {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 0px;
+    margin: 5px 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.card button:hover {
+    scale: 1.03;
+    cursor: pointer;
+}
+
+.navbar .terms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 5px;
+}
+
+.navbar .terms a{
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.navbar .terms a:hover{
+    opacity: 1;
+}
+
+.navbar .lang button{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.navbar .lang button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.home {
+    background-color: rgb(29 29 29);
+    flex: 1;
+    overflow: auto;
+}
+
+.home .container{
+    padding: 30px 20px;
+}
+
+.home .container .header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.header h4 {
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.albums {
+    display: flex;
+}
+
+.albums .placard{
+    width: 165px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+.albums .placard:hover{
+    background-color: rgb(21, 21, 21);
+    cursor: pointer;
+}
+
+.albums .placard img{
+    width: 165px;
+    border-radius: 5px;
+}
+
+.albums .placard p:hover{
+    text-decoration: underline;
+}
+
+.artistname{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.albums .placard .artistname a{
+    /* padding-top: 10px; */
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.albums .placard .artistname a:hover{
+    text-decoration: underline;
+    /* opacity: 1; */
+}
+
+.artistart {
+    border-radius: 50%;
+}
+
+.footer {
+    height: 200px;
+}
+
+.player {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+}

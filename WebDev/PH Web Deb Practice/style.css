@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    width: 78%;
+    margin: 20px auto;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEEAE9;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.header-content #title {
+    color: #1F1F1F;
+    font-size: xxx-large;
+}
+
+@media screen and (max-width: 1270px) {
+    .header-content #title {
+        font-size: xx-large;
+    }
+}
+
+.header-content #price {
+    color: #FF136F;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+.header-content p {
+    color: #4E4E4E;
+}
+
+.header-content button {
+    padding: 14px 20px;
+    font-size: 16px;
+    background-color: #FF589B;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.categories {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 24px;
+    
+}
+
+.categories button {
+    font-size: 28px;
+    align-content: center;
+    border-radius: 10px;
+    border: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px 20px;
+    min-width: 270px;
+}
+
+#btn1 {
+    background-color: #FF9C35;
+}
+
+#btn2 {
+    background-color: #FF136F;
+}
+
+#btn3 {
+    background-color: #3F07F8;
+}
+
+.shoes {
+    margin: 80px auto;
+}
+
+.shoe-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 24px auto;
+}
+
+.shoe-cards div {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    text-align: center;
+    margin: auto;
+    min-width: 270px;
+
+}
+
+.shoe-cards h3 {
+    margin-top: 10px;
+}
+
+.shoe-cards p {
+    margin: 16px 0px;
+}
+
+.shoe-cards button {
+    margin: 16px 0px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 100px 200px;
+    background-color: #FFF2F1;
+    margin: auto;
+}
+
+.footer input {
+    font-size: larger;
+    padding: 10px 20px;
+    border: 0px;
+
+}
+
+.footer button {
+    padding: 10px 20px;
+    border: 0px;
+    background-color: #FF136F;
+    color: white;
+}

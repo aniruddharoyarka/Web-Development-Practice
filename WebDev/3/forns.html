@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password" name="user">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter Age" name="age">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <button type="button">CLICK ME</button>
+        </div>
+        <div>
+            <input type="checkbox" id="checked" name="tnc">
+            <label for="checked">I have read the <u>Terms & Conditions</u></label>
+        </div>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in YouTube" name="search_query">
+        <button>Search</button>
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="/action">
+        <div>
+            <input type="radio" name="course" id="cse" value="cse">
+            <label for="cse">CSE</label>
+            <input type="radio" name="course" id="eee" value="eee">
+            <label for="eee">EEE</label>
+        </div>
+        <div>
+            <select name="profession" id="profession">
+                <option value="student">Student</option>
+                <option value="doc">Doctor</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <div>
+            <label for="volume">Select Volume</label>
+            <input type="range" id="volume" name="vol" min="10" max="110" step="10" value="50">
+        </div>
+        <div>
+            <label for="feedback">Give us your valueable feedback</label>
+            <textarea name="fd" id="feedback" placeholder="Write here"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+    <hr>
+    <h2>Registration Form</h2>
+    <form action="/onboarding">
+        <div>
+            <input type="text"placeholder="First Name" name="fn">
+            <input type="text"placeholder="Last Name" name="ln">
+        </div>
+        <div>
+                <label for="gender">Please Select a gender</label>
+                <select name="gender" id="gender">
+                    <option value="n">Male</option>
+                    <option value="f">Female</option>
+                </select>
+        </div>
+        <div>
+            <label for="tnc">Do you agree to all terms and conditions</label>
+            <input type="checkbox" name="tnc" id="tnc" checked>
+        </div>
+        <div>
+            <button>Register</button>
+        </div>
+    </form>
+</body>
+</html>

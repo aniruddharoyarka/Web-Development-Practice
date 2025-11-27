@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+body {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+header p{
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.div1 {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1 a {
+    text-decoration: none;
+}
+
+.div2 {
+    margin: 0px 30px;
+}
+
+.div2 p {
+    text-align: justify;
+}
+
+.div3 {
+    border: 1px solid black;
+}
+
+.div3 #title{
+    text-align: center;
+    background-color: rgb(206, 154, 255);
+}
+
+.div3 img {
+    margin-top: 5px;
+}

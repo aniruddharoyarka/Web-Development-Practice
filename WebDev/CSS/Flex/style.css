@@ -1,0 +1,33 @@
+#container {
+    height: 500px;
+    width: 1000px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+

@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90vw;
+    margin: auto;
+}
+
+#box {
+    flex-grow: 1;
+    height: 240px;
+    width: 200px;
+    background-color: green;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+#item-1 {
+    flex-grow: 2;
+}
