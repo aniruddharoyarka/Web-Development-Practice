@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    width: 90vw;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.img {
+    margin: auto 0px;
+    width: 200px;
+    height: 112px;
+}
+
+.img img {
+    width: 200px;
+}
+
+.card .text {
+    margin-left: 10px;
+}
+
+.card .text h3{
+    font-weight: 600;
+}
+
