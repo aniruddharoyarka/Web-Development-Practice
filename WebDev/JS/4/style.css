@@ -51,3 +51,13 @@ header p{
 .div3 img {
     margin-top: 5px;
 }
+
+button {
+    background-color: aquamarine;
+    border: 0px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}

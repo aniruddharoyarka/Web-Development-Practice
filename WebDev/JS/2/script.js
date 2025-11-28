@@ -1,9 +1,12 @@
-let a = 17;
-
-if(a>18) {
-    console.log("Good");
-}
-else {
-    console.log("Very bad");
+function multipleGreet(func, count) {
+    for (let i = 0; i < count; i++) {
+        func()
+    }
 }
 
+
+let sayHello = function greet() {
+    console.log("Hello")
+}
+
+multipleGreet(sayHello, 2);
