@@ -8,6 +8,7 @@
 body {
     background-color: black;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .topbar {
@@ -92,7 +93,7 @@ body {
 
 .navbar {
     background-color: rgb(23, 23, 23);
-    width: 390px;
+    width: 35vw
     /* display: flex;
     flex-direction: column;
     align-content: center; */
@@ -172,7 +173,7 @@ body {
 
 .home {
     background-color: rgb(29 29 29);
-    flex: 1;
+    /* flex: 1; */
     overflow: auto;
 }
 
@@ -195,10 +196,13 @@ body {
 
 .albums {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 29px;
 }
 
 .albums .placard{
-    width: 165px;
+    width: 160px;
     padding: 10px;
     transition: 500ms;
 }
@@ -239,6 +243,25 @@ body {
     border-radius: 50%;
 }
 
+.albumart {
+    position: relative;
+}
+
+.albumart i{
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 50%;
+    background-color: #1DD05D;
+    /* display: none; */
+}
+
+/* .albumart i:hover{
+    display: block;
+} */
+
 .footer {
     height: 200px;
 }
@@ -249,4 +272,97 @@ body {
     bottom: 0px;
     width: 100%;
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-info  {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    row-gap: 2px;
+}
+
+/* song controls starts here  */
+
+
+.song-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px;
+}
+
+.songs-panel {
+    background-color: #171717;
+    width: 30vw;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.song-info img{
+    width:60px;
+    padding: 10px;
+}
+
+.song-info #song-name{
+    font-size: 15px;
+}
+
+.song-info #artist-name{
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+#playbtn {
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+#loop {
+    opacity: 0.3;
+}
+
+#shuffle {
+    opacity: 0.3;
+}
+
+.sound-control {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 20px;
+}
+
+#audio-box {
+    width: 100px;
+    height: 10px;
+    background-color: white;
+}
+
+
+/* Scroll Bar */
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #242424; /* pure black */
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #4b4b4b; /* slightly lighter so it's visible */
+  border-radius: 10px;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
 }
