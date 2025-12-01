@@ -2,7 +2,7 @@ let moves = ["ROCK","PAPER","SCISSORS","ROCK","PAPER","SCISSORS"];
 
 let computer = document.querySelector(".computer")
 function computerMove(){
-    let random = Math.floor(Math.random() * 6)
+    let random = Math.floor(Math.random() * moves.length)
     computer.innerText = moves[random]
 }
 let btns = document.querySelectorAll("button")
@@ -12,18 +12,8 @@ for(let btn of btns) {
     btn.addEventListener("click", ()=> {
         console.log("button clicked"); 
         console.log(btn.innerText)
-        if(btn.innerText == "ROCK") {
-            input.innerText = "ROCK";
-        }
-        else if(btn.innerText == "PAPER") {
-            input.innerText = "PAPER";
-        }
-        else if(btn.innerText == "SCISSORS") {
-            input.innerText = "SCISSORS";
-        }
-        else {
-            input.innerHTML = "";
-        }
+
+        input.innerText = btn.innerText
         computerMove();
         result();
     })
