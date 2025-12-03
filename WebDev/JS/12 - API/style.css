@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+.card {
+    width: 45vw;
+    text-align: left;
+}
+
+.card .information{
+    padding: 30px;
+}
+
+.card img {
+    width: 100px;
+}
+
+body {
+    text-align: center;
+}
+
+.searchbox {
+    padding: 10px;
+
+}
+
+.searchbox button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.searchbox input{
+    padding: 10px;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+.card {
+    display: flex;
+    /* justify-content: center; */
+    border: 0px;
+    padding: 10px;
+    background-color: azure;
+    margin: 30px auto;
+}
+
+.container button {
+    background-color: #F5C518;
+    border-radius: 10px;
+    padding: 7px 10px;
+    border: 0px;
+    margin:5px auto
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
