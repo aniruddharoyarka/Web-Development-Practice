@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+    text-align: center;
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+}
+
+.counter h1 {
+    margin: 20px 0px;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.numbers div {
+    background-color:antiquewhite;
+}
+
+.numbers .box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.numbers .num {
+    font-size: 40px;
+    font-weight: bold;
+}
